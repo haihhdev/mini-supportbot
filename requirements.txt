@@ -1,0 +1,6 @@
+requests
+beautifulsoup4
+markdownify
+python-slugify
+tqdm
+python-dotenv
