@@ -36,5 +36,5 @@ docker run -e OPENAI_API_KEY=your-api-key mini-supportbot
 ## Screenshot of Playground Answer
 
 The OptiBot assistant correctly answers "How do I add a YouTube video?" with proper citations from uploaded documentation.
-
+![Screenshot of Playground answer](assets/playground-answer.png)
 _Note: Screenshot shows assistant responding with citations from OptiSigns support articles._
