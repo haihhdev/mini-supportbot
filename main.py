@@ -73,7 +73,7 @@ class DailyJob:
     
     def scrape_and_detect_changes(self, max_articles=40):
         """Scrape articles and detect changes"""
-        print("🔄 Starting daily scrape...")
+        print("Starting daily scrape...")
         
         # Load existing hashes
         existing_hashes = self.load_article_hashes()
@@ -102,7 +102,7 @@ class DailyJob:
                 html_content = fetch_article_content(article_id, title)
                 
                 if html_content is None:
-                    print(f"❌ Failed to fetch content: {title}")
+                    print(f"Failed to fetch content: {title}")
                     stats['failed'] += 1
                     continue
                 
@@ -110,7 +110,7 @@ class DailyJob:
                 content_md = extract_content(html_content)
                 
                 if not content_md:
-                    print(f"❌ Empty content: {title}")
+                    print(f"Empty content: {title}")
                     stats['failed'] += 1
                     continue
                 
@@ -120,14 +120,14 @@ class DailyJob:
                 # Check if file exists and hash changed
                 if filename in existing_hashes:
                     if existing_hashes[filename] == new_hash:
-                        print(f"⏭️ Skipped (no changes): {title}")
+                        print(f"Skipped (no changes): {title}")
                         stats['skipped'] += 1
                         continue
                     else:
-                        print(f"🔄 Updated: {title}")
+                        print(f"Updated: {title}")
                         stats['updated'] += 1
                 else:
-                    print(f"➕ Added: {title}")
+                    print(f"Added: {title}")
                     stats['added'] += 1
                 
                 # Save markdown file
@@ -143,7 +143,7 @@ class DailyJob:
                 time.sleep(0.5)
                 
             except Exception as e:
-                print(f"❌ Error processing {title}: {e}")
+                print(f"Error processing {title}: {e}")
                 stats['failed'] += 1
         
         # Save updated hashes
@@ -154,10 +154,10 @@ class DailyJob:
     def upload_changes_to_openai(self, uploaded_files):
         """Upload changed files to OpenAI"""
         if not uploaded_files:
-            print("📤 No files to upload")
+            print("No files to upload")
             return 0
         
-        print(f"📤 Uploading {len(uploaded_files)} files to OpenAI...")
+        print(f"Uploading {len(uploaded_files)} files to OpenAI...")
         
         uploaded_count = 0
         for filename in uploaded_files:
@@ -174,7 +174,7 @@ class DailyJob:
         """Main job execution"""
         start_time = time.time()
         
-        print("🚀 Starting OptiSigns Daily Job")
+        print("Starting OptiSigns Daily Job")
         print("=" * 50)
         print(f"Start time: {datetime.now().isoformat()}")
         
@@ -197,7 +197,7 @@ class DailyJob:
             duration = end_time - start_time
             
             print("\n" + "=" * 50)
-            print("📊 JOB SUMMARY")
+            print("JOB SUMMARY")
             print("=" * 50)
             print(f"Duration: {duration:.2f} seconds")
             print(f"Total articles: {stats['total_articles']}")
@@ -212,7 +212,7 @@ class DailyJob:
             return 0
             
         except Exception as e:
-            print(f"❌ Job failed: {e}")
+            print(f"Job failed: {e}")
             return 1
 
 def main():
@@ -222,7 +222,7 @@ def main():
         exit_code = job.run()
         exit(exit_code)
     except Exception as e:
-        print(f"❌ Failed to initialize job: {e}")
+        print(f"Failed to initialize job: {e}")
         exit(1)
 
 if __name__ == "__main__":
