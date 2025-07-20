@@ -1,0 +1,246 @@
+{
+  "total_files": 40,
+  "total_chunks": 99,
+  "files": [
+    {
+      "file_id": "file-Ctnt7YmpdYv7XRzuU5XigJ",
+      "filename": "accepted-payment-methods.md",
+      "chunks": 1,
+      "size": 2160
+    },
+    {
+      "file_id": "file-SjZaf3b61ocbjceYMByGfu",
+      "filename": "configuring-mass-deployment-with-jamf-pro-mdm-on-apple-devices.md",
+      "chunks": 1,
+      "size": 3747
+    },
+    {
+      "file_id": "file-BppodLQ4TEz8LKbV3SJZCd",
+      "filename": "designer-2-0-new-features.md",
+      "chunks": 4,
+      "size": 13490
+    },
+    {
+      "file_id": "file-1MGxRoh3miAr9XfAvTStj6",
+      "filename": "disk-encryption.md",
+      "chunks": 1,
+      "size": 3411
+    },
+    {
+      "file_id": "file-TNSr75YdmCBsrPh4yeBg5N",
+      "filename": "display-salesforce-dashboards-with-mfa-using-web-scripting.md",
+      "chunks": 1,
+      "size": 3825
+    },
+    {
+      "file_id": "file-RkNCpf1Ha9MgDMsBEZD83G",
+      "filename": "enabling-lock-down-mode-on-touch-screen-devices.md",
+      "chunks": 2,
+      "size": 7972
+    },
+    {
+      "file_id": "file-JpC4hhHXbtNxZrxabEADfN",
+      "filename": "fixing-unexpected-screen-rotation-incorrect-orientation-with-optisigns-android-stick.md",
+      "chunks": 1,
+      "size": 1335
+    },
+    {
+      "file_id": "file-RFjc9czcsXw5JAebWTw2gY",
+      "filename": "getting-started-with-an-optisigns-free-trial.md",
+      "chunks": 2,
+      "size": 4456
+    },
+    {
+      "file_id": "file-JDAf7hRnxgnSFXAayfjY2C",
+      "filename": "getting-started-with-designer.md",
+      "chunks": 5,
+      "size": 19004
+    },
+    {
+      "file_id": "file-JMg8jtys7Crtx64NKpXg41",
+      "filename": "getting-started-with-touch-screen-kiosks.md",
+      "chunks": 3,
+      "size": 10112
+    },
+    {
+      "file_id": "file-TgFKsZ7N5s7SGgLnWfc8Qr",
+      "filename": "guide-for-creating-content-with-optisigns.md",
+      "chunks": 3,
+      "size": 9257
+    },
+    {
+      "file_id": "file-8iRsPSh71Bnf7Rn4mUFadu",
+      "filename": "handle-oauth-authentication-using-api-gateway-pre-request-configuration.md",
+      "chunks": 1,
+      "size": 2605
+    },
+    {
+      "file_id": "file-BiD9NCjy8S84FUS4tit7a3",
+      "filename": "how-to-access-the-troubleshooting-page-of-the-optisigns-player.md",
+      "chunks": 2,
+      "size": 5348
+    },
+    {
+      "file_id": "file-2sY6kM4ADkNnjhzzMha6tC",
+      "filename": "how-to-clear-cache-on-a-brightsign-player.md",
+      "chunks": 1,
+      "size": 3471
+    },
+    {
+      "file_id": "file-U63Cwdoxq7J9wRti7kywHj",
+      "filename": "how-to-create-an-attract-screen-for-your-kiosk.md",
+      "chunks": 2,
+      "size": 4289
+    },
+    {
+      "file_id": "file-Kmj76rEzXyt1T6RBHMX8Y8",
+      "filename": "how-to-create-and-use-operational-schedules-hdmi-cec-rs-232.md",
+      "chunks": 2,
+      "size": 7651
+    },
+    {
+      "file_id": "file-Et3SgkRbrG3QDEuhEvS8xH",
+      "filename": "how-to-create-custom-news-feeds-with-optisync.md",
+      "chunks": 4,
+      "size": 15389
+    },
+    {
+      "file_id": "file-A2vUSS2uVP9z2EjdnNVXF3",
+      "filename": "how-to-display-dynamic-event-schedules-using-optisync.md",
+      "chunks": 4,
+      "size": 14202
+    },
+    {
+      "file_id": "file-LgMS9oqRRNTsXPq3R54Ns1",
+      "filename": "how-to-install-a-root-certificate-and-display-an-internal-website-on-screens.md",
+      "chunks": 4,
+      "size": 14398
+    },
+    {
+      "file_id": "file-Qfh29skkLueu6vUoxSu3wD",
+      "filename": "how-to-order-a-preconfigured-optisigns-android-player-device.md",
+      "chunks": 1,
+      "size": 2470
+    },
+    {
+      "file_id": "file-3Simi7nMPsZvRW3QwwsNGw",
+      "filename": "how-to-play-licensed-background-music-on-digital-signs-with-optisound.md",
+      "chunks": 1,
+      "size": 3776
+    },
+    {
+      "file_id": "file-K8DqHqqw4QLuJixiRjVYCP",
+      "filename": "how-to-set-up-a-powerbi-service-principal-for-use-in-optisigns.md",
+      "chunks": 2,
+      "size": 7640
+    },
+    {
+      "file_id": "file-2aVVfoHFs19xG5juMVMeJ1",
+      "filename": "how-to-set-up-dynamic-data-mapping-with-optisync.md",
+      "chunks": 4,
+      "size": 14482
+    },
+    {
+      "file_id": "file-H4mXeL1BgVecFawdTpYsQV",
+      "filename": "how-to-use-optisigns-with-microsoft-teams-rooms.md",
+      "chunks": 2,
+      "size": 6812
+    },
+    {
+      "file_id": "file-EMJvsmbagTtRssi9cXzfD7",
+      "filename": "how-to-use-the-mobile-app-for-remote-control.md",
+      "chunks": 1,
+      "size": 3784
+    },
+    {
+      "file_id": "file-8bTh14NyyMjY7nS1eNXXPY",
+      "filename": "how-to-use-the-tableau-app.md",
+      "chunks": 3,
+      "size": 9309
+    },
+    {
+      "file_id": "file-3fREMWDcQouHjavGkcspw7",
+      "filename": "how-to-use-toast-api-data-with-optisigns.md",
+      "chunks": 2,
+      "size": 5074
+    },
+    {
+      "file_id": "file-EcKGrBQbqjk89TCVYm2P2P",
+      "filename": "how-to-using-sepa-and-ideal-for-eur-currency-subscription-payments.md",
+      "chunks": 1,
+      "size": 2548
+    },
+    {
+      "file_id": "file-NHMu3fxtHm8poHGLPmV4CM",
+      "filename": "integrating-point-of-sale-pos-systems-to-build-digital-menu-boards-with-optisync.md",
+      "chunks": 5,
+      "size": 16484
+    },
+    {
+      "file_id": "file-8m6Tf4LBgPoma6p6sCPJyc",
+      "filename": "legacy-datasources.md",
+      "chunks": 2,
+      "size": 7641
+    },
+    {
+      "file_id": "file-MBGa7zi153gjSGhsv4Y7UQ",
+      "filename": "list-of-supported-cities-for-weather-wall-city-themes.md",
+      "chunks": 1,
+      "size": 1754
+    },
+    {
+      "file_id": "file-DqeW2Pgaubix93BAzFrtUg",
+      "filename": "making-a-video-wall-with-optisigns-video-wall-app.md",
+      "chunks": 4,
+      "size": 15083
+    },
+    {
+      "file_id": "file-XTBhmgRhERGJReL7NdTpma",
+      "filename": "optisigns-android-player-troubleshooting-guide.md",
+      "chunks": 5,
+      "size": 16630
+    },
+    {
+      "file_id": "file-6fr2mMQG9unTuwZpgSdNfD",
+      "filename": "optisigns-pro-player-advanced-features.md",
+      "chunks": 3,
+      "size": 9554
+    },
+    {
+      "file_id": "file-AB9ciRX11mrwruYxabYtbf",
+      "filename": "optisigns-pro-promax-player-troubleshooting-guide.md",
+      "chunks": 4,
+      "size": 13182
+    },
+    {
+      "file_id": "file-YbjRW6jpoK2arcjuvRxpPs",
+      "filename": "optisigns-promax-player.md",
+      "chunks": 4,
+      "size": 14320
+    },
+    {
+      "file_id": "file-5SFufDfZ3jKqbVa3pd6nQZ",
+      "filename": "performance-stability-issues-on-android-devices-and-best-practices.md",
+      "chunks": 1,
+      "size": 3176
+    },
+    {
+      "file_id": "file-Kknir5UhCEq9WXvPwjVAZY",
+      "filename": "remotely-control-and-command-optisigns-devices.md",
+      "chunks": 4,
+      "size": 13220
+    },
+    {
+      "file_id": "file-CN7kkjW2ieP3otT5jaLRNZ",
+      "filename": "tagging-in-optisigns.md",
+      "chunks": 3,
+      "size": 10991
+    },
+    {
+      "file_id": "file-EhHTidbi3KC11godqhdCHf",
+      "filename": "what-do-i-get-with-an-optisigns-free-plan.md",
+      "chunks": 2,
+      "size": 4742
+    }
+  ]
+}

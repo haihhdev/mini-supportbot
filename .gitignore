@@ -11,5 +11,4 @@ data/*.md
 logs/
 
 test_assistant.py
-upload_summary.json
 check_job_health.py
