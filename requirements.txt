@@ -4,3 +4,6 @@ markdownify
 python-slugify
 tqdm
 python-dotenv
+openai
+tiktoken
+python-dotenv

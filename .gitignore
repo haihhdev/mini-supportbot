@@ -9,3 +9,6 @@ venv/
 # Output
 data/*.md
 logs/
+
+test_assistant.py
+upload_summary.json

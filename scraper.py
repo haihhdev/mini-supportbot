@@ -47,7 +47,7 @@ def fetch_articles(max_articles=30):
                 break
                 
             page += 1
-            time.sleep(1)  # Be nice to the server
+            time.sleep(1)  
             
         except Exception as e:
             print(f"Error fetching page {page}: {e}")
