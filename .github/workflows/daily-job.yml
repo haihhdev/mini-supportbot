@@ -29,9 +29,12 @@ jobs:
         run: |
           python main.py
 
-      - name: Upload logs
+      - name: Upload job logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
           name: job-logs
-          path: logs
+          path: |
+            logs/
+            job_log.json
+            article_hashes.json

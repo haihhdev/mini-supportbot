@@ -29,6 +29,8 @@ class DailyJob:
         
         # Ensure data directory exists
         os.makedirs(self.data_dir, exist_ok=True)
+        # Ensure logs directory exists
+        os.makedirs("logs", exist_ok=True)
     
     def calculate_file_hash(self, filepath):
         """Calculate MD5 hash of file content"""
@@ -70,6 +72,10 @@ class DailyJob:
         # Save logs
         with open(self.log_file, 'w') as f:
             json.dump(logs, f, indent=2)
+        
+        # Create simple log file for GitHub Actions
+        with open("logs/job_run.log", "a") as f:
+            f.write(f"Run Summary: {stats['added']} added, {stats['updated']} updated, {stats['skipped']} skipped\n")
     
     def scrape_and_detect_changes(self, max_articles=40):
         """Scrape articles and detect changes"""
@@ -80,7 +86,7 @@ class DailyJob:
         
         # Fetch articles from API
         articles = fetch_articles(max_articles=max_articles)
-        print(f"📋 Found {len(articles)} articles to process")
+        print(f"Found {len(articles)} articles to process")
         
         stats = {
             'total_articles': len(articles),
@@ -207,6 +213,7 @@ class DailyJob:
             print(f"Failed: {stats['failed']}")
             print(f"Uploaded to OpenAI: {stats['openai_uploaded']}")
             print(f"Log saved to: {self.log_file}")
+            print(f"Simple log: logs/job_run.log")
             
             # Exit with success code
             return 0
