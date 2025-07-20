@@ -29,9 +29,9 @@ jobs:
         run: |
           python main.py
 
-      - name: Upload logs (optional)
+      - name: Upload logs
         if: always()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: job-logs
           path: logs
