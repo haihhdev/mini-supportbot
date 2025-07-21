@@ -50,5 +50,17 @@
       ],
       "openai_uploaded": 39
     }
+  },
+  {
+    "timestamp": "2025-07-21T07:45:46.401812",
+    "stats": {
+      "total_articles": 40,
+      "added": 1,
+      "updated": 0,
+      "skipped": 39,
+      "failed": 1,
+      "uploaded_files": [],
+      "openai_uploaded": 0
+    }
   }
 ]

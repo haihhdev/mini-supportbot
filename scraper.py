@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 from markdownify import markdownify as md
 from slugify import slugify
 
-def fetch_articles(max_articles=30):
+def fetch_articles(max_articles=40):
     """Fetch articles from Zendesk API with proper headers"""
     articles = []
     page = 1
@@ -22,7 +22,7 @@ def fetch_articles(max_articles=30):
     
     while len(articles) < max_articles:
         try:
-            url = f"https://support.optisigns.com/api/v2/help_center/articles.json?page={page}&per_page=30"
+            url = f"https://support.optisigns.com/api/v2/help_center/articles.json?page={page}&per_page=40"
             print(f"Fetching page {page}...")
             
             resp = requests.get(url, headers=headers, timeout=10)
